@@ -1,0 +1,38 @@
+# develop environment
+casServerHost=cas.yunovo.cn
+casServerUrlPrefix=http://${casServerHost}
+casServerLoginUrl=${casServerUrlPrefix}/login
+casServerLogoutUrl=${casServerUrlPrefix}/logout
+serverHost=mtp.yunovo.cn
+serverName=http://mtp.yunovo.cn
+exludeFilterResource=*remote*
+serverIndexUrls=/index/homepage.ihtml
+# test environment
+#casServerHost=cas.yunovo.cn
+#casServerUrlPrefix=https://${casServerHost}
+#casServerLoginUrl=${casServerUrlPrefix}/login
+#casServerLogoutUrl=${casServerUrlPrefix}/logout
+#serverHost=uc.yunovo.cn
+#serverName=http://${serverHost}
+#exludeFilterResource=*remote*
+#serverIndexUrls=/index/homepage.ihtml
+
+# tproduct environment
+#casServerHost=tcas.yunovo.cn
+#casServerUrlPrefix=https://${casServerHost}
+#casServerLoginUrl=${casServerUrlPrefix}/login
+#casServerLogoutUrl=${casServerUrlPrefix}/logout
+#serverHost=tuc.yunovo.cn
+#serverName=http://${serverHost}
+#exludeFilterResource=*remote*
+#serverIndexUrls=/index/homepage.ihtml
+
+# product environment
+#casServerHost=cas.yunovo.cn
+#casServerUrlPrefix=https://${casServerHost}
+#casServerLoginUrl=${casServerUrlPrefix}/login
+#casServerLogoutUrl=${casServerUrlPrefix}/logout
+#serverHost=uc.yunovo.cn
+#serverName=http://${serverHost}
+#exludeFilterResource=*remote*
+#serverIndexUrls=/index/homepage.ihtml

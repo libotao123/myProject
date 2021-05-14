@@ -1,0 +1,23 @@
+# eclipse
+.classpath
+.project
+.settings/
+.external*
+.spring*
+
+bin
+# intellij
+*.iml
+.idea/
+
+
+
+# Java class files
+*.class
+*.jar
+
+
+# Log Files
+*.log
+.metadata/
+.recommenders
